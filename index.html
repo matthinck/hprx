@@ -13,6 +13,21 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <style>
+
+        @media only screen and (max-width: 1280px) {
+                  .section {
+                    width: 90%;
+              /*      background: red;      */
+                  }
+                }
+
+        @media only screen and (min-width: 700px) {
+                  .section {
+                    width: 50%;
+             /*       background: blue;   */
+                  }
+                }
+
         body {
           font-family: "Roboto", sans-serif;
           font-weight: 100;
@@ -25,13 +40,13 @@
           color: #000;
         }
 
-        h1 {
+        h2 {
           color: #CCCCCC;
           font-size: 16pt;
           font-weight: 100;
         }
 
-        h1 a {
+        h2 a {
           color: #666666;
         }
 
@@ -46,26 +61,63 @@
           margin-top: 8%;
         }
 
-        .site-identity h1 {
-          font-size: 1.5em;
+        h1 {
+          font-size: 21pt;
           margin: .7em 0 .3em 0;
         }
 
         .site-identity img {
-          max-width: 400px;
+          max-width: 300px;
         }
+
+        .section {
+          margin: 0 auto;
+          padding: 20px;
+        }
+
+        .section p {
+          line-height: 1.6;
+          font-weight: 300;
+          font-size: 14pt;
+        }
+
+        .section .lead {
+          font-weight: 400;
+          font-size: 15pt;         
+        }
+
+    
 
     </style>
 </head>
 <html>
 <body>
-  <p><br /></p>
-  <div class="site-identity">
-    <a href="https://krishinck.com"><img src="hprx-lockup-sqar.png" alt="HPRX" /></a>
-    <h1>Please visit<br /><a href="https://krishinck.com">krishinck.com</a></a></h1>
-  </div>  
-<header class="site-header">
-  
-</header>
+    <div class="site-identity">
+        <a href="https://krishinck.com"><img src="hprx-lockup-sqar.png" alt="HPRX" /></a>
+    </div>  
+    <div class="section">
+        <h1>Performance Design | Human Centered</h1>
+        <p class="lead">HPRX is an agency dedicated to the human-first performance solutions for individuals, teams and
+          organisations. 
+          <p>We leverage the power of our network of multi-disciplined experts. The foundation of
+            HPRX is in the sustained excellence of achievement in Australian Sport. A long history of high
+            performance and success on national and international arenas. We understand excellence through the
+            commitment to performance and wellbeing; personally and professionally, work and life. Our network of
+            people are a collective of experienced professionals with demonstrated successes in sport, military,
+            business, medicine and education.
+          </p>
+          <p>Philosophically we are science informed and intuitively executed. Our practice is a craft of science and
+            art. We focus on teams, groups and organisations with a unique emphasis on human-first performance.
+            We deliver results for our partners.
+          <p>
+          <p>Our method is through coaching, leading, educating, advising and mentoring. Previously our work has
+            been within the regions of Australia, Asia, Middle East, Europe and the United Kingdom.
+          </p>
+          <p>For more information on our solutions please complete this form below.
+          </p>
+</div>
+<div>
+    <h2>Also visit<br /><a href="https://krishinck.com">krishinck.com</a></a></h2>
+</div>  
 </body>
 </html>
