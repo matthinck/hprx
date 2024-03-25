@@ -1,0 +1,97 @@
+        @media only screen and (max-width: 1366px) {
+                  .section {
+                    width: 60%;
+              /*      background: red;      */
+                  }
+                }
+
+        @media only screen and (min-width: 360px) {
+                  .section {
+                    width: 80%;
+             /*       background: blue;   */
+                  }
+                }
+
+        body {
+          font-family: "Roboto", sans-serif;
+          font-weight: 100;
+          font-style: normal;
+          margin: 8px 0px;
+          text-align: center;
+        }
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+
+        h2 {
+          color: #CCCCCC;
+          font-size: 18pt;
+          font-weight: 100;
+        }
+
+        h2 a {
+          color: #666666;
+        }
+
+        .site-header { 
+/*          border-bottom: 1px solid #ccc;    */
+          padding: .5em 1em;
+          text-align: center;
+        }
+
+        .site-identity {
+         /*   float: left; */
+          margin-top: 8%;
+        }
+
+        h1 {
+          font-size: 22pt;
+          margin: .7em 0 .3em 0;
+          text-transform: uppercase;
+          color: #333333;
+        }
+
+        .site-identity img {
+          max-width: 300px;
+        }
+
+        .section {
+          margin: 0 auto;
+          padding: 20px 20px 0px 20px;
+        }
+
+        .section p {
+          line-height: 1.6;
+          font-weight: 300;
+          font-size: 14pt;
+          color: #333333;
+        }
+
+        .section .lead {
+          font-weight: 400;
+          font-size: 18pt;
+          color: #666666;
+        }
+
+        .footer p {
+          color: #CCCCCC;
+        }
+
+        .button-outer {
+/*         width:100%;            */
+          padding: 0px;
+/*          background: #e2e2e2;  */
+        }
+
+        .button {
+          background-color:#15e0ff;
+          padding: 10px 20px;
+          font-weight: 600;
+          font-size: 12pt;
+        }
+
+        .button a:hover {
+          background-color: red;
+        }
+    
